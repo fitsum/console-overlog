@@ -1,0 +1,24 @@
+{
+  "name": "console-overlog",
+  "version": "1.0.0",
+  "description": "Console log stuff on the same line until you are done",
+  "main": "index.js",
+  "scripts": {
+    "test": "n/a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fitsum/console-overlog.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "console"
+  ],
+  "author": "@fitsum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fitsum/console-overlog/issues"
+  },
+  "homepage": "https://github.com/fitsum/console-overlog#readme"
+}
