@@ -7,6 +7,5 @@
 - `npm i https://github.com/fitsum/console-overlog`
 
 ## TODO
-- make enhancements
-- fix bugs
+- add boolean persistence option that defaults to TRUE 
 
