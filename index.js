@@ -11,5 +11,5 @@ const cr = () => {
 	   process.stdout.cursorTo(0);
 }
 
-module.exports = { overlog };
+module.exports = overlog;
 
