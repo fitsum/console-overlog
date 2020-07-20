@@ -8,7 +8,7 @@ const overlog = (content) => {
 // carriage return, same line 
 // why is this seperate
 const cr = () => {
-	   process.stdout.cursorTo(0);
+    process.stdout.cursorTo(0);
 }
 
 module.exports = overlog;
