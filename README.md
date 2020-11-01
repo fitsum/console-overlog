@@ -7,5 +7,7 @@
 - `npm i https://github.com/fitsum/console-overlog`
 
 ## TODO
-- add boolean persistence option that defaults to TRUE 
+- options
+    - boolean for color diffs for new lines
+    - boolean for persistence, defaults TRUE  
 
