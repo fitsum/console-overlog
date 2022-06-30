@@ -7,7 +7,7 @@ lines.set(4, 'in god I know I have won');
 
 let counter = 0;
 const write = (lines, interval) => {
-  if (counter >= lines.size) { if (interval) clearInterval(interval); return; }
+  if (counter >= lines.size) { if (interval) { clearInterval(interval); } c('\r\n'); return; }
   counter++;
   c(lines.get(counter));
 };
