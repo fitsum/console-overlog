@@ -1,8 +1,8 @@
 // write a line to console
-const overlog = (content) => {
-  process.stdout.write(content);
+const overlog = input => {
+  if (input === '\r\n') { process.stdout.write(input); return; }
+  process.stdout.write(input);
   process.stdout.cursorTo(0);
-  // cr();
 };
 
 module.exports = overlog;
