@@ -9,7 +9,7 @@
 - todo/cursor
 
 ## TODO OPTIONS
-- boolean to append current line with (previous line.length - current line.length) blanks space
+- boolean to append current line with (previous line.length - current line.length) blank spaces
 - color diffs for new
 
 ## TODO ES-IFY
