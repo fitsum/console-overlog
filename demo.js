@@ -8,7 +8,7 @@ lines.push('in god I know I have won');
 let counter = 0;
 const write = (lines, interval) => {
   if (counter >= lines.length) { if (interval) { clearInterval(interval); } c('\r\n'); return; }
-  c(lines[counter]);
+  c(lines[counter], true);
   counter++;
 };
 
