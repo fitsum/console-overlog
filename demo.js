@@ -1,4 +1,4 @@
-const c = require('./index');
+import { overlog } from './index.js';
 const lines = [];
 lines.push('there is a house in New Orleans');
 lines.push('they call the Rising Sun');
@@ -7,8 +7,8 @@ lines.push('in god I know I have won');
 
 let counter = 0;
 const write = (lines, interval) => {
-  if (counter >= lines.length) { if (interval) { clearInterval(interval); } c('\r\n'); return; }
-  c(lines[counter], true);
+  if (counter >= lines.length) { if (interval) { clearInterval(interval); } overlog('\r\n'); return; }
+  overlog(lines[counter], true);
   counter++;
 };
 
