@@ -4,6 +4,7 @@ lines.push( 'there is a house in New Orleans' )
 lines.push( 'they call the Rising Sun' )
 lines.push( 'and it has been the ruin of many a poor boy' )
 lines.push( 'in god I know I have won' )
+lines.push( '' )
 
 let counter = 0
 const write = ( lines, interval ) => {
