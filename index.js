@@ -2,8 +2,8 @@
 let lastInput
 
 // write a line to console
-const overlog = ( input, cleanInput ) => {
-  if ( cleanInput && typeof lastInput !== 'undefined' ) {
+const overlog = ( input, cleanOutput ) => {
+  if ( cleanOutput && typeof lastInput !== 'undefined' ) {
     const diff = lastInput.length - input.length
     if ( diff > 0 ) { input += Array( diff ).fill( ' ' ).join( '' ) }
   }
