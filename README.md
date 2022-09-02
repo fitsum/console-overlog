@@ -8,7 +8,6 @@
 - todo/cursor
 
 ## TODO OPTIONS
-- boolean for blank last line
 - color diffs for new
 
 ## TODO CURSOR
