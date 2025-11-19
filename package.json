@@ -1,10 +1,11 @@
 {
   "name": "console-overlog",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Console log stuff on the same line until you are done",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "demo": "node demo",
     "test": "n/a"
   },
   "repository": {
@@ -14,23 +15,26 @@
   "keywords": [
     "node",
     "nodejs",
-    "console"
+    "console",
+    "node",
+    "app",
+    "hack",
+    "cli",
+    "mvp",
+    "tiny app",
+    "javascript"
   ],
-  "author": "@fitsum",
-  "license": "ISC",
+  "author": "@fitsum <fitsumbelay@gmail.com>, @dumbservices <reallydumbservices@gmail.com>",
+  "license": "GLP-3.0",
   "bugs": {
     "url": "https://github.com/fitsum/console-overlog/issues"
   },
   "homepage": "https://github.com/fitsum/console-overlog#readme",
   "devDependencies": {
-    "eslint": "^8.19.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0"
-  },
-  "dependencies": {
-    "path-parse": "^1.0.7"
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.4.0"
   }
 }
