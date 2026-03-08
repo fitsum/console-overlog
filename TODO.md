@@ -7,8 +7,7 @@
 - TODO SERVICES
 
 ## TODO APP
-- update ESLint
-- improve README/USAGE
+- can README/USAGE be improved?
 - add jsdocs
 
 ## TODO UI
