@@ -1,7 +1,7 @@
 {
   "name": "console-overlog",
   "version": "0.0.0",
-  "description": "Console log stuff on the same line until you are done",
+  "description": "Console log without new lines",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -31,10 +31,13 @@
   },
   "homepage": "https://github.com/fitsum/console-overlog#readme",
   "devDependencies": {
-    "eslint": "^8.57.0",
+    "@eslint/eslintrc": "^3.3.5",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.3",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-promise": "^6.4.0"
+    "eslint-plugin-n": "^17.24.0",
+    "eslint-plugin-promise": "^6.4.0",
+    "globals": "^17.4.0"
   }
 }
