@@ -7,12 +7,12 @@
 - TODO SERVICES
 
 ## TODO APP
-- git-tag commits
-- can README/USAGE be improved?
+- CHORE: git-tag commits
+- RESEARCH: can README/USAGE be improved?
 
 ## TODO UI
-- color diffs for new
-- animate cursor glyph or position?
+- FEATURE: color diffs for new
+- RESEARCH: animate cursor glyph or position?
 
 ## TODO SERVICES
 - TBD
