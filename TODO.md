@@ -7,8 +7,8 @@
 - TODO SERVICES
 
 ## TODO APP
+- git-tag commits
 - can README/USAGE be improved?
-- add jsdocs
 
 ## TODO UI
 - color diffs for new
